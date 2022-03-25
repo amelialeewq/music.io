@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Performances</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*Navigation Bar */
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #FFFFFF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-family: monospace;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #DCDCDC;
+}
+
+/* Creating the header */
+
+.header {
+  background-color: #FFFFFF;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  height: 64px;
+  line-height: 30px;
+  margin-top: 200px;
+  padding-top: 4px;
+  position: absolute;
+  width: 100%;
+  font-size: 18px;
+  font-family: helvetica;
+  color: #FFFFFF
+}
+
+video {
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.vid-border{
+  position: relative;
+  height: 50vw;
+  width: 90%;
+  border: 3px dashed white;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+.aside {
+  background-color: #FFFFFF;
+  padding: 15px;
+  color: #000000;
+  font-size: 18px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-top: 4em;
+  width: auto;
+}
+
+</style>
+</head>
+<body>
+
+<div class="ul">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="instrument.html">Instruments</a></li>
+  <li><a href="inspiration.html">Inspiration</a></li>
+</ul>
+</div>
+
+<br>
+
+<div class="header">
+  <h1 style="font-family: Verdana">My Inspirations</h1>
+</div>
+
+<img src="inspiration.jpg" alt="Inspiration" style="width:100%">
+
+<div class="content">
+<div class="col-3 col-s-12">
+<div class="aside">
+<h2 style="text-align:center"; background-colour:#A3D7D5;">My Favourite Artists</h2>
+<p style="text-align:center">Click on their names below to hear their songs!</p>
+
+<br>
+
+<br>
+
+<div class="row">
+  <div class="column"><img src="westlife.jpg" class="center" style="width:70%; height: 100%;">
+	<a href="https://www.youtube.com/watch?v=ousx7IqNZhs"><p style="text-align:center">Westlife</p></a>
+</div>
+
+  <div class="column"><img src="michael buble.jpg" class="center" style="width:70%; height: 100%">
+	<a href="https://www.youtube.com/watch?v=QHmtdorWzUo"><p style="text-align:center">Michael Buble</p></a>
+</div>
+
+  <div class="column"><img src="mika.jpg" class="center" style="width:70%; height: 100%">
+	<a href="https://www.youtube.com/watch?v=0CGVgAYJyjk"><p style="text-align:center">Mika</p></a>
+</div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<hr style:"hr style="width:60%; text-align:center"></hr>
+
+
+<div class="col-3 col-s-12">
+ 
+<center>
+<br>
+<h3>Check this Out!</h3>
+<video width="70%"; controls>
+      <source src="grace.mp4" type="video/mp4">
+    </video>
+<p style = "font-size: 2vmin">A twist on Mika's popular song: <span style="color:#ba55d3"> Grace Kelly </span> by Pomplamoose</p>
+</center>
+</aside>
+</div>
+
+<br>
+
+</div>
+
+</div>
+</div>
+
+<br>
+
+<div class="content">
+<div class="align">
+<br>
+<h2 style="text-align:center">My Favourite Classical Musicians</h2>
+  <p style="text-align:center">Click on their videos below to watch performances of their pieces! They are highlighted in <span style="color:#48d1cc"> blue </span>.</p>
+
+<br>
+
+<br>
+
+</div>
+
+<div class="col-3 col-s-12">
+<div class="background">
+<center>
+<video width="75%"; controls>
+      <source src="piano1.mp4" type="video/mp4">
+    </video>
+<p>Dmitry Shishkin – Fantasy-impromptu in C sharp minor Op. 66 by <span style="color:#48d1cc"> Chopin </span></p>
+</center>
+
+<br>
+<br>
+
+<div class="col-3 col-s-12">
+<center>
+<video width="75%"; controls>
+      <source src="piano2.mp4" type="video/mp4">
+    </video>
+<p>Lang Lang - Für Elise by <span style="color:#48d1cc"> Beethoven </span> </p>
+
+</center>
+
+</div>
+
+<br>
+
+</div>
+
+<div class="footer">
+  <p>AED23M: Assignment 2</p>
+</div>
+
+</div>
+</body>
+</html>
